@@ -4,13 +4,41 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-
-
 }
 
 .container{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+ul{
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 20px;
+    font-size: 18px;
+}
+
+
+
+#right_link{
+    margin-left: auto;
+}
+
+.one{
+    background-color: #1F2937;
+    color: white;
+    padding: 5px 200px 100px 200px;
+}
+
+.title{
+    display: flex;
+}
+
+
 
 
 .footer{
