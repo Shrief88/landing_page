@@ -1,3 +1,23 @@
+.bold24px{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.font{
+    font-size: 18px;
+}
+
+.button1,.button2{
+    background-color: #3B82F6;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    border: solid;
+}
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -6,26 +26,16 @@ body{
     padding: 0;
 }
 
+
 .container{
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-ul{
-    list-style-type: none; 
-    display: flex; 
-    justify-content: space-evenly;
-    padding: 0;
-    gap: 20px;
-    font-size: 18px;
-}
 
 
-
-#right_link{
-    margin-left: auto;
-}
+/********************** First Section ************************/
 
 .one{
     background-color: #1F2937;
@@ -36,16 +46,28 @@ ul{
     gap: 50px;
 }
 
-.title{
-    display: flex;
+
+/**** navbar */
+ul{
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 0;
     gap: 20px;
+    font-size: 18px;
 }
 
 
-#logo{
-    font-weight: bold;
-    font-size: 24px;
-    
+#right_link{
+    margin-left: auto;
+}
+
+
+/*************** text *********/
+
+.title{
+    display: flex;
+    gap: 20px;
 }
 
 #website{
@@ -54,34 +76,24 @@ ul{
     margin-bottom: 24px;
 }
 
-.font{
-    font-size: 18px;
-}
-
-button{
-    background-color: #3B82F6;
-    padding: 10px 25px;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 18px;
+.button1{
     border-color: #1F2937;
 }
 
-.footer{
-   background-color: #1F2937;
-   padding: 40px;
-   color: white;
-   text-align: center;
-   font-size: 18px;
-}
 
+
+/**************************** Second Section **********************/
 
 .two{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
+}
+
+#info{
+    font-weight: bold;
+    font-size: 36px;  
 }
 
 .images{
@@ -106,18 +118,14 @@ button{
     height: 200px;
 }
 
-#info{
-    font-weight: bold;
-    font-size: 36px;
-    
-}
+
+/********************************** third Section *****************************/
 
 .three{
     padding: 60px 500px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column; 
-
 }
 
 #quote{
@@ -130,23 +138,43 @@ button{
 
 #thor{
     align-self: flex-end;
-    font-weight: bold;
-    font-size: 24px;
 }
+
+
+/********************************** fourth Section ********************************/ 
 
 .four{
     padding: 100px;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .round_box{
+    margin: auto;
     border-radius: 10px;
     border: 5px solid #3B82F6;
     background-color: #3B82F6;
     padding: 20px;
     width: 1200px;
     height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button2{
+    border-color: white;
+    align-self: center;
 }
 
 
+
+
+/*************************************** Footer ***************************/
+
+.footer{
+    background-color: #1F2937;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+ }
