@@ -98,6 +98,7 @@ img{
     background-image: url('images/team.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    flex-shrink: 0;
 
 }
 
@@ -138,7 +139,8 @@ img{
     width: 200px;
     height: 200px;
     background-size: 100% 100%;
-    background-repeat: no-repeat;   
+    /* background-repeat: no-repeat;   */
+    /* object-fit: cover;  */
 }
 
 #image_1{
@@ -161,10 +163,10 @@ img{
 /********************************** third Section *****************************/
 
 .three{
-    padding: 60px 500px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column; 
+    padding: 30px 120px;
 }
 
 #quote{
@@ -183,7 +185,7 @@ img{
 /********************************** fourth Section ********************************/ 
 
 .four{
-    padding: 100px;
+    padding: 100px 200px;
     
 }
 
@@ -192,17 +194,16 @@ img{
     border-radius: 10px;
     border: 5px solid #3B82F6;
     background-color: #3B82F6;
-    padding: 20px 100px;
-    width: 1000px;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px;
 }
 
 .button2{
     border-color: white;
     align-self: center;
+    flex-shrink: 0;
 }
 
 .round_box p{
